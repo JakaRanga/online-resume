@@ -19,7 +19,7 @@ export class ResumeEnComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.resumeData.profile)
+    console.log(this.resumeData)
   }
 
 }

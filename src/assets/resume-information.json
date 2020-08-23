@@ -83,5 +83,15 @@
             "name": "React / React Native",
             "knowledge": 50
         }
+    ],
+    "languages": [
+        {
+            "type": "French",
+            "level": 4
+        },
+        {
+            "type": "English",
+            "level": 3
+        }
     ]
 }

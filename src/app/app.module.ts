@@ -9,13 +9,15 @@ import { ResumeEnComponent } from './resume-en/resume-en.component';
 import { SkillBlockComponent } from './skill-block/skill-block.component';
 import { ResumeLoaderService } from './resume-loader/resume-loader.service';
 import { ExperienceBlockComponent } from './experience-block/experience-block.component';
+import { LanguageBlockComponent } from './language-block/language-block.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ResumeEnComponent,
     SkillBlockComponent,
-    ExperienceBlockComponent
+    ExperienceBlockComponent,
+    LanguageBlockComponent
   ],
   imports: [
     BrowserModule,

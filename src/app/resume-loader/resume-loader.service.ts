@@ -8,7 +8,8 @@ export interface ResumeData {
   contacts: Contact[],
   experiences: Experience[],
   educations: Education[],
-  skills: Skill[]
+  skills: Skill[],
+  languages: Language[]
 
 }
 
@@ -51,6 +52,13 @@ export interface Skill {
 
   name: string,
   knowledge: number
+
+}
+
+export interface Language {
+
+  type: string,
+  level: number
 
 }
 
