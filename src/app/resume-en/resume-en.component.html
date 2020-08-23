@@ -2,29 +2,27 @@
 
     <ng-container *ngIf="resumeData">
 
-        <div class="ro-flex-row">
+        <div class="ro-flex-row ro-align-center">
 
-            <div class="ro-flex-row ro-align-center">
+            <div class="ro-cp-picture-container">
+                <img src="../../assets/jeremy-bouton.jpg" class="ro-cp-resume-pic ro-margin-right-xl">
+            </div>
 
-                <img src="../../assets/jeremy-bouton.jpg" class="ro-cp-resume-pic">
-
-
-                <div class="ro-cp-resume-title">
-                    <div class="title">
-                        {{ resumeData.profile.name }}
-                    </div>
-
-                    <div class="subtitle">
-                        {{ resumeData.profile.title }}
-                    </div>
+            <div class="ro-cp-resume-title ro-flex-fill">
+                <div class="title">
+                    {{ resumeData.profile.name }}
                 </div>
 
+                <div class="subtitle">
+                    {{ resumeData.profile.title }}
+                </div>
             </div>
+
         </div>
 
-        <div class="ro-flex-row ro-margin-top">
+        <div class="ro-flex-row ro-margin-top-xl">
 
-            <div class="ro-cp-left-panel">
+            <div class="ro-cp-left-panel ro-margin-right-xl ">
 
                 <div>
                     <label>PROFILE</label>
@@ -69,7 +67,7 @@
                     </div>
                 </div>
 
-                <div class="ro-cp-resume-block ro-margin-top">
+                <div class="ro-cp-resume-block ro-margin-top-xl">
 
                     <label>EDUCATION</label>
 
@@ -80,7 +78,7 @@
                     </div>
                 </div>
 
-                <div class="ro-cp-resume-block ro-margin-top">
+                <div class="ro-cp-resume-block ro-margin-top-xl">
 
                     <label>SKILLS</label>
 
@@ -91,7 +89,7 @@
                     </div>
                 </div>
 
-                <div class="ro-cp-resume-block ro-margin-top">
+                <div class="ro-cp-resume-block ro-margin-top-xl">
 
                     <label>LANGUAGES</label>
 

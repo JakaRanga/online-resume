@@ -30,22 +30,22 @@
 }
 
 .btn {
-    padding: 6px 12px;
+    padding: .3125vw  0.625vw;
     border-radius: 2px;
 }
 
 .btn-xl {
     @extend .btn;
-    font-size: 18px;
+    font-size: 1.1vw;
     fa-icon {
-        font-size: 14px;
+        font-size: .9vw;
     }
 }
 
 .btn-sm {
     @extend .btn;
-    font-size: 10px;
+    font-size: 0.52vw;
     fa-icon {
-        font-size: 8px;
+        font-size: 0.42vw;
     }
 }

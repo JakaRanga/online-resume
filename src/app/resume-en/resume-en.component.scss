@@ -1,13 +1,17 @@
 .ro-cp-resume-container {
     width: 70vw;
-    margin: 30px auto;
+    margin: 1.5625vw auto;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.ro-cp-picture-container {
+    width: 18vw;
 }
 
 .ro-cp-resume-pic {
     border-radius: 50%;
-    width: 20vw;
-    height: 20vw;
+    width: 16vw;
+    height: 16vw;
 }
 
 label {
@@ -16,7 +20,6 @@ label {
 }
 
 .ro-cp-resume-title {
-    margin-left: 40px;
 
     .title {
         font-size: 4vw;
@@ -32,11 +35,10 @@ label {
 }
 
 .ro-cp-left-panel {
-    max-width: 30%;
-    flex: 3;
+    width: 18vw;
 
     .ro-cp-details {
-        margin-top: 16px;
+        margin-top: 1.3125vw;
 
         .ro-cp-details-label {
             color: var(--ro-text-secondary);
@@ -45,7 +47,7 @@ label {
     }
 
     .ro-cp-contacts {
-        margin-top: 16px;
+        margin-top: 1.3125vw;
 
         .ro-cp-contacts-label {
             color: var(--ro-text-secondary);
@@ -55,5 +57,5 @@ label {
 }
 
 .ro-cp-right-panel {
-    margin-left: 20px;
+    margin-left: 1.0416vw;
 }
