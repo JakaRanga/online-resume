@@ -1,0 +1,26 @@
+<div class="ro-cp-main-container ro-flex-column ro-flex-fill">
+
+    <!-- <div class="ro-cp-toolbar ro-flex-row ro-justify-space-between ro-padding-xl ro-border-bottom">
+
+        <img src="../assets/Jeremy-Bouton-logo2.png">
+
+        <div class="ro-flex-row ro-align-center">
+
+            <a class="ro-margin-right ro-text-secondary">FR</a>
+            <a class="ro-margin-right ro-text-secondary">EN</a>
+
+            <a href="assets/resume.pdf" download class="btn-xl ro-btn-primary ro-flex-row ro-align-center">
+                <fa-icon class="ro-text-white ro-margin-right-sm" [icon]="faDownload"></fa-icon>
+                Resume
+            </a>
+        </div>
+
+    </div> -->
+
+    <div class="ro-cp-main-resume-container">
+
+        <ro-resume-en *ngIf="resumeData" [resumeData]="resumeData"></ro-resume-en>
+
+    </div>
+
+</div>
