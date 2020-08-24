@@ -2,7 +2,7 @@
 
     <ng-container *ngIf="resumeData">
 
-        <div class="ro-flex-row ro-align-center">
+        <div class="ro-flex-row ro-align-center rp-cp-title-container">
 
             <div class="ro-cp-picture-container">
                 <img src="../../assets/jeremy-bouton.jpg" class="ro-cp-resume-pic ro-margin-right-xl">
@@ -16,6 +16,14 @@
                 <div class="subtitle">
                     {{ resumeData.profile.title }}
                 </div>
+            </div>
+
+            <div>
+                <a href="assets/resume.pdf" download class="ro-cp-download-btn">
+
+                    <fa-icon [icon]="faDownload" class="ro-text-secondary"></fa-icon>
+                    <!-- <img class="ro-text-secondary ro-margin-right-sm" src="../../assets/download-blue.svg" /> -->
+                </a>
             </div>
 
         </div>
@@ -38,7 +46,7 @@
                     <label class="ro-cp-details-label ro-margin-top-sm">Nationality</label>
                     <div>{{ resumeData.profile.nationality }}</div>
 
-                    <label class="ro-cp-details-label ro-margin-top-sm">Location</label>
+                    <label class="ro-cp-details-label ro-margin-top-sm">Localization</label>
                     <div>{{ resumeData.profile.localisation }}</div>
                 </div>
 

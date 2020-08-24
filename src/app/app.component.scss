@@ -14,3 +14,10 @@
 .ro-cp-main-container {
     height: 100vh;
 }
+
+.ro-cp-main-resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

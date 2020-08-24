@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { faEnvelope, faPhone, faLink } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone, faLink, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { ResumeData } from '../resume-loader/resume-loader.service';
 
 @Component({
@@ -15,6 +15,7 @@ export class ResumeEnComponent implements OnInit {
   faEnvelope = faEnvelope;
   faPhone = faPhone;
   faLink = faLink;
+  faDownload = faDownload;
 
   constructor() { }
 

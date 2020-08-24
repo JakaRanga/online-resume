@@ -3,6 +3,7 @@
 @import "style-sheets/margin-padding.scss";
 @import "style-sheets/style-class.scss";
 @import "style-sheets/color.scss";
+@import "style-sheets/ro-scrollbar.scss";
 
 body {
     font-family: "Poppins", sans-serif;
@@ -10,7 +11,7 @@ body {
 
     --ro-primary: #0b7af3;
     --ro-dark-primary: #0b5fb9;
-    --ro-light-primary: #71b5fd;
+    --ro-light-primary: #92c7ff;
     --ro-secondary: #000000;
 
     --ro-text-white: #ffffff;
@@ -21,6 +22,9 @@ body {
 
     --ro-border-color: rgba(0, 0, 0, 0.14);
 
+    --ro-toolbar-background-color: #c1dbf7;
+    --ro-toolbar-foreground-color: #0b7af3;
+    --ro-toolbar-foreground-color-hover: #0b5fb9;
     font-size: 1vw;
 }
 
