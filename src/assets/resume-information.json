@@ -39,6 +39,12 @@
             "subtitle": "öhman bank s.a luxembourg",
             "description": "Web application development (Angular 7 / 8)\nAPI REST (C# ASP.NET)\nDesktop application development (WPF)\nDatabase management\n(Entity Framework Core, SQL Sever Management Studio, Transact-SQL)",
             "date": "apr 2019 - dec 2019"
+        },
+        {
+            "title": "Software developer - Internship",
+            "subtitle": "kyu solutions luxembourg",
+            "description": "Web application development (ASP.NET Razor)\nWeb API (.Net Core - AKKA.Net)\nDatabase management (SQL Sever Management Studio, Transact-SQL)",
+            "date": "sep 2020 - mar 2020"
         }
     ],
     "educations": [
