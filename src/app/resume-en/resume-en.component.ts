@@ -6,7 +6,7 @@ import { ResumeData } from '../resume-loader/resume-loader.service';
   selector: 'ro-resume-en',
   templateUrl: './resume-en.component.html',
   styleUrls: ['./resume-en.component.scss'],
-  host: { 'class': 'ro-flex-fill ro-flex-column'}
+  host: { 'class': 'ro-flex-fill ro-flex-column' }
 })
 export class ResumeEnComponent implements OnInit {
 
@@ -20,7 +20,16 @@ export class ResumeEnComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.resumeData)
   }
 
+  printAsPdf(componentName: string) {
+    let printContents = document.getElementById(componentName).innerHTML;
+    let originalContents = document.body.innerHTML;
+
+    document.body.innerHTML = printContents;
+
+    window.print();
+
+    document.body.innerHTML = originalContents;
+  }
 }
