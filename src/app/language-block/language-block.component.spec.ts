@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { LanguageBlockComponent } from './language-block.component';
 
@@ -6,7 +6,7 @@ describe('LanguageBlockComponent', () => {
   let component: LanguageBlockComponent;
   let fixture: ComponentFixture<LanguageBlockComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ LanguageBlockComponent ]
     })
