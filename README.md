@@ -27,7 +27,8 @@ In this part, list as much of experiences as you want to.
 This list is a bit different, the object is composed of a string ("name") which is the name of your skill, and a number ("knowledge") which represents an evaluation of your knowledge of this particular skill. This knowledge can take only 5 values : 0, 25, 50, 75 and 100.
 
 Let's take an example : 
-  name: "Markdown",  ---> This means that I evaluate my knwoledgein the Markdown skill \n
+  name: "Markdown",  ---> This means that I evaluate my knwoledgein the Markdown skill
+  
   knowledge: 100     ---> at 100%
 
 ## Languages
