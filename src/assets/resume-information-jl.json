@@ -1,0 +1,115 @@
+{
+    "lang": "fr",
+    "pictureUrl": "../../assets/jean-laurain.jpg",
+    "profile": {
+        "name": "Jean LAURAIN",
+        "title": "Web / Développeur logiciel - Etudiant EPITECH",
+        "catchphrase": "En 5eme et dernière année - Ecole de programmation",
+        "birthdate": "6 Aout 1995",
+        "nationality": "Français",
+        "localisation": "Nancy - France"
+    },
+    "contacts": [
+        {
+            "name": "Email",
+            "value": "jean.laurain@epitech.eu"
+        },
+        {
+            "name": "Téléphone",
+            "value": "+33 7 88 22 95 08"
+        },
+        {
+            "name": "LinkedIn",
+            "value": "https://www.linkedin.com/in/jean-laurain-87581b16b/"
+        }
+    ],
+    "experiences": [
+        {
+            "title": "Développeur informatique - Stage",
+            "subtitle": "HAPPYCURL",
+            "description": "Amélioration et maintenance de l'ERP (Enterprise Resource Planning) (WinDev, SQL)",
+            "date": "Sep. 2020 - Fév 2021"
+        },
+        {
+            "title": "Développeur informatique - CDD",
+            "subtitle": "DIGITSOLE",
+            "description": "Perfectionnement de mon logiciel de test pour système embarqué (C#)\nRefactorisation et maintenance d'un système embarqué (C)",
+            "date": "Sep. 2019 - Dec. 2019"
+        },
+        {
+            "title": "Développeur informatique - Stagiaire",
+            "subtitle": "EPSILON",
+            "description": "Développement d'un logiciel de test pour système embarqué (C#)\nDéveloppement d'une application mobile de test pour système embarqué (React Native)\n Re-factorisation et maintenance d'un système embarqué (C)",
+            "date": "Avr. 2019 - Aou. 2019"
+        },
+        {
+            "title": "Développeur informatique - Stagiaire",
+            "subtitle": "ZHOR-TECH",
+            "description": "Amélioration et maintenance d'un logiciel de démonstration (B4J)\nAmélioration et maintenance d'une application de démonstration (B4A)\nInitiation et apprentissage du language C à des ingénieurs non spécialisés (C)",
+            "date": "Sep. 2018 - Mar. 2019"
+        },
+        {
+            "title": "Développeur informatique - Stagiaire",
+            "subtitle": "GARNIER-THIEBAUT",
+            "description": "Développement d’un webservice en partenariat avec FedEx (Java, SQL)\nDéveloppement d’une application de vérification des stocks (WinDev)",
+            "date": "Jul. 2017 - Dec. 2017"
+        }
+    ],
+    "educations": [
+        {
+            "title": "Expert en Technologies de l’Information",
+            "subtitle": "EPITECH",
+            "date": "2016 - 2021"
+        },
+        {
+            "title": "Étude à l'étranger",
+            "subtitle": "CALIFORNIA STATE UNIVERSITY SAN MARCOS",
+            "date": "Jan. 2020 - Aou 2020"
+        },
+        {
+            "title": "Baccalauréat - Section scientifique",
+            "subtitle": "LYCÉE CLAUDE GELLÉE",
+            "date": "2012 - 2015"
+        }
+    ],
+    "skills": [
+        {
+            "name": "C - C++",
+            "knowledge": 100
+        },
+        {
+            "name": "C#",
+            "knowledge": 75
+        },
+        {
+            "name": "Git",
+            "knowledge": 100
+        },
+        {
+            "name": "Java",
+            "knowledge": 75
+        },
+        {
+            "name": "Kotlin",
+            "knowledge": 75
+        },
+        {
+            "name": "Ionic",
+            "knowledge": 50
+        },
+        {
+            "name": "Transact-SQL",
+            "knowledge": 75
+        }
+    ],
+    "languages": [
+        {
+            "name": "Français",
+            "knowledge": 100
+        },
+        {
+            "name": "Anglais",
+            "knowledge": 50
+        }
+    ]
+}

@@ -1,4 +1,6 @@
 {
+    "lang": "en",
+    "pictureUrl": "../../assets/jeremy-bouton.jpg",
     "profile": {
         "name": "Jérémy BOUTON",
         "title": "Web / Software Developer - Student at Epitech",
@@ -44,7 +46,13 @@
             "title": "Software developer - Internship",
             "subtitle": "kyu solutions luxembourg",
             "description": "Web application development (ASP.NET Razor)\nWeb API (.Net Core - AKKA.Net)\nDatabase management (SQL Sever Management Studio, Transact-SQL)",
-            "date": "sep 2020 - mar 2020"
+            "date": "sep 2020 - mar 2021"
+        },
+        {
+            "title": "Junior Frontend developer",
+            "subtitle": "Fair&Smart",
+            "description": "Web application development (Angular)\nMobile application development(Ionic)\n",
+            "date": "mar 2021"
         }
     ],
     "educations": [
@@ -54,21 +62,17 @@
             "date": "2013 - 2016"
         },
         {
-            "title": "Master in computer science",
-            "subtitle": "Epitech - nancy france",
-            "date": "2016 - 2021"
-        },
-        {
             "title": "International student",
             "subtitle": "Californian state university san marcos - USA",
             "date": "2019 - 2020"
+        },
+        {
+            "title": "Master in computer science",
+            "subtitle": "Epitech - nancy france",
+            "date": "2016 - 2021"
         }
     ],
     "skills": [
-        {
-            "name": "C#",
-            "knowledge": 100
-        },
         {
             "name": "Angular",
             "knowledge": 100
@@ -82,8 +86,12 @@
             "knowledge": 100
         },
         {
-            "name": "C++ / C",
-            "knowledge": 50
+            "name": "Ionic",
+            "knowledge": 75
+        },
+        {
+            "name": "C#",
+            "knowledge": 75
         },
         {
             "name": "React / React Native",
@@ -97,7 +105,7 @@
         },
         {
             "type": "English",
-            "level": 3
+            "level": 4
         }
     ]
 }

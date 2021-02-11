@@ -5,6 +5,8 @@ import { Observable } from 'rxjs';
 export interface ResumeData {
 
   profile: Profile,
+  lang: string,
+  pictureUrl: string,
   contacts: Contact[],
   experiences: Experience[],
   educations: Education[],

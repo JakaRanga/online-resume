@@ -5,7 +5,7 @@
         <div class="ro-flex-row ro-align-center rp-cp-title-container">
 
             <div class="ro-cp-picture-container">
-                <img src="../../assets/jeremy-bouton.jpg" class="ro-cp-resume-pic ro-margin-right-xl">
+                <img [src]="resumeData.pictureUrl" class="ro-cp-resume-pic ro-margin-right-xl">
             </div>
 
             <div class="ro-cp-resume-title ro-flex-fill">
@@ -33,25 +33,25 @@
             <div class="ro-cp-left-panel ro-margin-right-xl ">
 
                 <div>
-                    <label>PROFILE</label>
+                    <label>PROFIL</label>
                     <div>{{ resumeData.profile.catchphrase }}</div>
                 </div>
 
                 <div class="ro-cp-details ro-flex-column">
-                    <label>PERSONAL DETAILS</label>
+                    <label>{{ resumeData.lang == 'fr' ? 'DETAILS PERSONNELS' : 'PERSONAL DETAILS' }}</label>
 
-                    <label class="ro-cp-details-label ro-margin-top-sm">Birth Date</label>
+                    <label class="ro-cp-details-label ro-margin-top-sm">{{ resumeData.lang == 'fr' ? 'Date de naissance' : 'Birth Date' }}</label>
                     <div>{{ resumeData.profile.birthdate }}</div>
 
-                    <label class="ro-cp-details-label ro-margin-top-sm">Nationality</label>
+                    <label class="ro-cp-details-label ro-margin-top-sm">{{ resumeData.lang == 'fr' ? 'Nationalité' : 'Nationality' }}</label>
                     <div>{{ resumeData.profile.nationality }}</div>
 
-                    <label class="ro-cp-details-label ro-margin-top-sm">Localization</label>
+                    <label class="ro-cp-details-label ro-margin-top-sm">{{ resumeData.lang == 'fr' ? 'Localisation' : 'Localization' }}</label>
                     <div>{{ resumeData.profile.localisation }}</div>
                 </div>
 
                 <div class="ro-cp-contacts ro-flex-column">
-                    <label>CONTACT</label>
+                    <label>CONTACTS</label>
 
                     <div class="ro-flex-column" *ngFor="let contact of resumeData.contacts">
                         <label class="ro-cp-contacts-label ro-margin-top-sm">{{ contact.name }}</label>
@@ -66,7 +66,7 @@
 
                 <div class="ro-cp-resume-block">
 
-                    <label>PROFESSIONAL EXPERIENCE</label>
+                    <label>{{ resumeData.lang == 'fr' ? 'EXPERIENCES PROFESSIONNELLES' : 'PROFESSIONAL EXPERIENCES' }}</label>
 
                     <div class="ro-flex-column ro-flex-fill">
 
@@ -77,7 +77,7 @@
 
                 <div class="ro-cp-resume-block ro-margin-top-xl">
 
-                    <label>EDUCATION</label>
+                    <label>EDUCATIONS</label>
 
                     <div class="ro-flex-column ro-flex-fill">
 
@@ -88,7 +88,7 @@
 
                 <div class="ro-cp-resume-block ro-margin-top-xl">
 
-                    <label>SKILLS</label>
+                    <label>{{ resumeData.lang == 'fr' ? 'COMPETENCES' : 'SKILLS' }}</label>
 
                     <div class="ro-flex-column ro-flex-fill">
 
@@ -99,7 +99,7 @@
 
                 <div class="ro-cp-resume-block ro-margin-top-xl">
 
-                    <label>LANGUAGES</label>
+                    <label>{{ resumeData.lang == 'fr' ? 'LANGUES' : 'LANGUAGES' }}</label>
 
                     <div class="ro-flex-column ro-flex-fill">
 
