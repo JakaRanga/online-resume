@@ -10,6 +10,7 @@ import { SkillBlockComponent } from './skill-block/skill-block.component';
 import { ResumeLoaderService } from './resume-loader/resume-loader.service';
 import { ExperienceBlockComponent } from './experience-block/experience-block.component';
 import { LanguageBlockComponent } from './language-block/language-block.component';
+import { ContactBlockComponent } from './contact-block/contact-block.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { LanguageBlockComponent } from './language-block/language-block.componen
     ResumeEnComponent,
     SkillBlockComponent,
     ExperienceBlockComponent,
-    LanguageBlockComponent
+    LanguageBlockComponent,
+    ContactBlockComponent
   ],
   imports: [
     BrowserModule,

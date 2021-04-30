@@ -27,7 +27,8 @@ export interface Profile {
 export interface Contact {
 
   name: string,
-  value: string
+  value: string,
+  type: 'tel' | 'email' | 'web' | 'linkedin'
 
 }
 

@@ -19,11 +19,11 @@
             </div>
 
             <div class="ro-cp-download-btn">
+
                 <a (click)="printAsPdf('resume-en')">
-
                     <fa-icon [icon]="faDownload" class="ro-text-secondary"></fa-icon>
-
                 </a>
+                
             </div>
 
         </div>
@@ -53,10 +53,7 @@
                 <div class="ro-cp-contacts ro-flex-column">
                     <label>CONTACT</label>
 
-                    <div class="ro-flex-column" *ngFor="let contact of resumeData.contacts">
-                        <label class="ro-cp-contacts-label ro-margin-top-sm">{{ contact.name }}</label>
-                        <div>{{ contact.value }}</div>
-                    </div>
+                    <ro-contact-block [contacts]="resumeData.contacts"></ro-contact-block>
 
                 </div>
 
