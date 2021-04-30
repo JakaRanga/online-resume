@@ -52,13 +52,10 @@ label {
 .ro-cp-left-panel {
     width: 18vw;
 
-    .ro-cp-details {
-        margin-top: 1.3125vw;
 
-        .ro-cp-details-label {
-            color: var(--ro-text-secondary);
-            font-weight: bold;
-        }
+    .ro-cp-details-label {
+        color: var(--ro-text-secondary);
+        font-weight: bold;
     }
 }
 

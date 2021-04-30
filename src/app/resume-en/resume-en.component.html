@@ -23,7 +23,7 @@
                 <a (click)="printAsPdf('resume-en')">
                     <fa-icon [icon]="faDownload" class="ro-text-secondary"></fa-icon>
                 </a>
-                
+
             </div>
 
         </div>
@@ -37,7 +37,7 @@
                     <div>{{ resumeData.profile.catchphrase }}</div>
                 </div>
 
-                <div class="ro-cp-details ro-flex-column">
+                <div class="ro-margin-top-l ro-flex-column">
                     <label>PERSONAL DETAILS</label>
 
                     <label class="ro-cp-details-label ro-margin-top-sm">Birth Date</label>
@@ -50,7 +50,7 @@
                     <div>{{ resumeData.profile.localisation }}</div>
                 </div>
 
-                <div class="ro-cp-contacts ro-flex-column">
+                <div class="ro-margin-top-l ro-flex-column">
                     <label>CONTACT</label>
 
                     <ro-contact-block [contacts]="resumeData.contacts"></ro-contact-block>
