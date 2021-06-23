@@ -9,9 +9,8 @@ export interface ResumeData {
   experiences: Experience[],
   educations: Education[],
   skills: Skill[],
-  languages: Language[],
-  picture: string
-  
+  languages: Language[]
+
 }
 
 export interface Profile {

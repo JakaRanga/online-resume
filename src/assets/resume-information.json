@@ -1,103 +1,108 @@
 {
     "profile": {
-        "name": "Jérémy BOUTON",
-        "title": "Web / Software Developer",
-        "catchphrase": "Junior Frontend Developer at Fair&Smart",
-        "birthdate": "24 January 1998",
-        "nationality": "French",
-        "localisation": "Metz - France",
-        "picture": "../../assets/jeremy-bouton.jpg"
+        "name": "Jean LAURAIN",
+        "title": "Web / Développeur logiciel - Etudiant EPITECH",
+        "catchphrase": "En 5eme et dernière année - Ecole de programmation",
+        "birthdate": "6 Aout 1995",
+        "nationality": "Français",
+        "localisation": "Nancy - France"
     },
     "contacts": [
         {
             "name": "Email",
-            "value": "jeremy.bouton@outlook.com",
+            "value": "jean.laurain@epitech.eu",
             "type": "email"
         },
         {
             "name": "Phone",
-            "value": "+33 7 50 23 53 54",
+            "value": "+33 7 88 22 95 08",
             "type": "tel"
         },
         {
             "name": "LinkedIn",
-            "value": "/in/jeremybouton",
+            "value": "/in/jean-laurain/",
             "type": "linkedin"
         }
     ],
     "experiences": [
         {
-            "title": "Software developer - Internship",
-            "subtitle": "nestlé waters vosges",
-            "description": "Software development (C# / Winforms / WPF)\nDatabase management\n(Entity Framework, SQL Server Management Studio, Transact-SQL)",
-            "date": "jul 2017 - dec 2017"
+            "title": "Développeur informatique - CDD",
+            "subtitle": "HAPPYCURL",
+            "description": "Amélioration et maintenance de l'ERP (Enterprise Resource Planning) (WinDev, SQL)",
+            "date": "Mar. 2021 - Aou 2021"
         },
         {
-            "title": "Web / API / Software developer - Internship",
-            "subtitle": "öhman bank s.a luxembourg",
-            "description": "Web application development (Angular 5 / 6 / 7)\nREST API(C# ASP.NET)\nDesktop application development (WPF)\nDatabase management\n(Entity Framework, SQL Sever Management Studio, Transact-SQL)",
-            "date": "jul 2018 - mars 2019"
+            "title": "Développeur informatique - Stage",
+            "subtitle": "HAPPYCURL",
+            "description": "Amélioration et maintenance de l'ERP (Enterprise Resource Planning) (WinDev, SQL)",
+            "date": "Sep. 2020 - Fév 2021"
         },
         {
-            "title": "Software architect - Internship",
-            "subtitle": "öhman bank s.a luxembourg",
-            "description": "Web application development (Angular 7 / 8)\nREST API (C# ASP.NET)\nDesktop application development (WPF)\nDatabase management\n(Entity Framework Core, SQL Sever Management Studio, Transact-SQL)",
-            "date": "apr 2019 - dec 2019"
+            "title": "Développeur informatique - CDD",
+            "subtitle": "DIGITSOLE",
+            "description": "Perfectionnement de mon logiciel de test pour système embarqué (C#)\nRefactorisation et maintenance d'un système embarqué (C)",
+            "date": "Sep. 2019 - Dec. 2019"
         },
         {
-            "title": "Software developer - Internship",
-            "subtitle": "kyu solutions luxembourg",
-            "description": "Web application development (ASP.NET Razor)\nREST API (.Net Core - AKKA.Net)\nDatabase management (SQL Sever Management Studio, Transact-SQL)",
-            "date": "sep 2020 - mar 2020"
+            "title": "Développeur informatique - Stagiaire",
+            "subtitle": "EPSILON",
+            "description": "Développement d'un logiciel de test pour système embarqué (C#)\nDéveloppement d'une application mobile de test pour système embarqué (React Native)\nRe-factorisation et maintenance d'un système embarqué (C)",
+            "date": "Avr. 2019 - Aou. 2019"
         },
         {
-            "title": "Junior Frontend developer",
-            "subtitle": "Fair&Smart",
-            "description": "Web application development (Angular 11)\nREST API (Typescript, Express)\nMobile application development(Ionic)\n",
+            "title": "Développeur informatique - Stagiaire",
+            "subtitle": "ZHOR-TECH",
+            "description": "Amélioration et maintenance d'un logiciel de démonstration (B4J)\nAmélioration et maintenance d'une application de démonstration (B4A)\nInitiation et apprentissage du language C à des ingénieurs non spécialisés (C)",
+            "date": "Sep. 2018 - Mar. 2019"
+        },
+        {
+            "title": "Développeur informatique - Stagiaire",
+            "subtitle": "GARNIER-THIEBAUT",
+            "description": "Développement d’un webservice en partenariat avec FedEx (Java, SQL)\nDéveloppement d’une application de vérification des stocks (WinDev)",
             "date": "mar 2021"
         }
     ],
     "educations": [
         {
-            "title": "Baccalauréat - Scientific section",
-            "subtitle": "lycée jean-baptiste vuillaume - Mirecourt France",
-            "date": "2013 - 2016"
-        },
-        {
-            "title": "Master in computer science",
-            "subtitle": "Epitech - nancy france",
+            "title": "Expert en Technologies de l’Information",
+            "subtitle": "EPITECH",
             "date": "2016 - 2021"
         },
         {
-            "title": "International student",
-            "subtitle": "Californian state university san marcos - USA",
-            "date": "2019 - 2020"
+            "title": "Étude à l'étranger",
+            "subtitle": "CALIFORNIA STATE UNIVERSITY SAN MARCOS",
+            "date": "Jan. 2020 - Aou 2020"
+        },
+        {
+            "title": "Baccalauréat - Section scientifique",
+            "subtitle": "LYCÉE CLAUDE GELLÉE",
+            "date": "2015"
         }
     ],
     "skills": [
         {
-            "name": "Angular",
-            "knowledge": 100
+            "name": "C - C++",
+            "knowledge": 75
         },
         {
             "name": "C#",
-            "knowledge": 100
-        },
-        {
-            "name": "SQL",
-            "knowledge": 100
+            "knowledge": 50
         },
         {
             "name": "Git",
             "knowledge": 100
         },
         {
-            "name": "C++ / C",
+            "name": "Java",
             "knowledge": 50
         },
         {
-            "name": "React / React Native",
-            "knowledge": 50
+            "name": "Kotlin",
+            "knowledge": 75
+        },
+        {
+            "name": "Transact-SQL",
+            "knowledge": 75
         }
     ],
     "languages": [
@@ -107,7 +112,7 @@
         },
         {
             "type": "English",
-            "level": 3
+            "level": 2
         }
     ]
 }
