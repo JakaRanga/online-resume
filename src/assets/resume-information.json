@@ -5,7 +5,8 @@
         "catchphrase": "Junior Frontend Developer at Fair&Smart",
         "birthdate": "24 January 1998",
         "nationality": "French",
-        "localisation": "Metz - France"
+        "localisation": "Metz - France",
+        "picture": "../../assets/jeremy-bouton.jpg"
     },
     "contacts": [
         {
