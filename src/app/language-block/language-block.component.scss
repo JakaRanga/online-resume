@@ -1,16 +1,19 @@
-.ro-cp-language {
-    .ro-cp-language-box {
-        width: 3vw;
-        height: .35vw;
-    }
+.ro-cp-language-full {
+    width: 3vw;
+    height: .35vw;
+    z-index: 99999;
+    background-color: var(--ro-primary);
+}
 
-    .ro-cp-language-full {
-        @extend .ro-cp-language-box;
-        background-color: var(--ro-primary);
-    }
+.ro-cp-language-empty {
+    width: 3vw;
+    height: .35vw;
+    z-index: 99999;
+    background-color: var(--ro-light-primary);
+}
 
-    .ro-cp-language-empty {
-        @extend .ro-cp-language-box;
-        background-color: var(--ro-light-primary);
+@media print {
+    .ro-cp-language-full, .ro-cp-language-empty {
+        -webkit-print-color-adjust: exact;
     }
 }
