@@ -107,12 +107,12 @@
     ],
     "languages": [
         {
-            "type": "French",
-            "level": 4
+            "type": "Français",
+            "level": 100
         },
         {
-            "type": "English",
-            "level": 2
+            "type": "Anglais",
+            "level": 50
         }
     ]
 }

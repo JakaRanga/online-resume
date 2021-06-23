@@ -8,9 +8,8 @@ import { Language } from '../resume-loader/resume-loader.service';
 })
 export class LanguageBlockComponent implements OnInit {
 
-  @Input() languages: Language[]
 
-  counter: Array<number> = [1, 2, 3, 4]
+  @Input() languages: Language[]
 
   constructor() { }
 
