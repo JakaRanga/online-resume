@@ -33,7 +33,7 @@ export interface Contact {
 
 }
 
-export interface Experience {
+export interface Experience extends Indexable {
 
   title: string,
   subtitle: string,
@@ -42,7 +42,7 @@ export interface Experience {
 
 }
 
-export interface Education {
+export interface Education extends Indexable {
 
   title: string,
   subtitle: string,
@@ -50,18 +50,24 @@ export interface Education {
 
 }
 
-export interface Skill {
+export interface Skill extends Indexable {
 
   name: string,
   knowledge: number
 
 }
 
-export interface Language {
+export interface Language extends Indexable {
 
   type: string,
   level: number
 
+}
+
+export interface Indexable {
+
+  index: number;
+  
 }
 
 @Injectable({

@@ -6,13 +6,10 @@ import { Contact } from '../resume-loader/resume-loader.service';
   templateUrl: './contact-block.component.html',
   styleUrls: ['./contact-block.component.scss']
 })
-export class ContactBlockComponent implements OnInit {
+export class ContactBlockComponent {
 
   @Input() contacts: Contact[] 
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

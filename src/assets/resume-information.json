@@ -12,17 +12,20 @@
         {
             "name": "Email",
             "value": "jeremy.bouton@outlook.com",
-            "type": "email"
+            "type": "email",
+            "index": 1
         },
         {
             "name": "Phone",
             "value": "+33 7 50 23 53 54",
-            "type": "tel"
+            "type": "tel",
+            "index": 2
         },
         {
             "name": "LinkedIn",
             "value": "/in/jeremybouton",
-            "type": "linkedin"
+            "type": "linkedin",
+            "index": 3
         }
     ],
     "experiences": [
@@ -30,84 +33,105 @@
             "title": "Software developer - Internship",
             "subtitle": "nestlé waters vosges",
             "description": "Software development (C# / Winforms / WPF)\nDatabase management\n(Entity Framework, SQL Server Management Studio, Transact-SQL)",
-            "date": "jul 2017 - dec 2017"
+            "date": "jul 2017 - dec 2017",
+            "index": 5
         },
         {
             "title": "Web / API / Software developer - Internship",
             "subtitle": "öhman bank s.a luxembourg",
             "description": "Web application development (Angular 5 / 6 / 7)\nREST API(C# ASP.NET)\nDesktop application development (WPF)\nDatabase management\n(Entity Framework, SQL Sever Management Studio, Transact-SQL)",
-            "date": "jul 2018 - mars 2019"
+            "date": "jul 2018 - mars 2019",
+            "index": 4
         },
         {
             "title": "Software architect - Internship",
             "subtitle": "öhman bank s.a luxembourg",
             "description": "Web application development (Angular 7 / 8)\nREST API (C# ASP.NET)\nDesktop application development (WPF)\nDatabase management\n(Entity Framework Core, SQL Sever Management Studio, Transact-SQL)",
-            "date": "apr 2019 - dec 2019"
+            "date": "apr 2019 - dec 2019",
+            "index": 3
         },
         {
             "title": "Software developer - Internship",
             "subtitle": "kyu solutions luxembourg",
             "description": "Web application development (ASP.NET Razor)\nREST API (.Net Core - AKKA.Net)\nDatabase management (SQL Sever Management Studio, Transact-SQL)",
-            "date": "sep 2020 - mar 2020"
+            "date": "sep 2020 - mar 2021",
+            "index": 2
         },
         {
             "title": "Junior Frontend developer",
             "subtitle": "Fair&Smart",
             "description": "Web application development (Angular 11)\nREST API (Typescript, Express)\nMobile application development(Ionic)\n",
-            "date": "mar 2021"
+            "date": "mar 2021 - now",
+            "index": 1
         }
     ],
     "educations": [
         {
             "title": "Baccalauréat - Scientific section",
             "subtitle": "lycée jean-baptiste vuillaume - Mirecourt France",
-            "date": "2013 - 2016"
+            "date": "2013 - 2016",
+            "index": 1
         },
         {
             "title": "Master in computer science",
             "subtitle": "Epitech - nancy france",
-            "date": "2016 - 2021"
+            "date": "2016 - 2021",
+            "index": 2
         },
         {
             "title": "International student",
             "subtitle": "Californian state university san marcos - USA",
-            "date": "2019 - 2020"
+            "date": "2019 - 2020",
+            "index": 3
         }
     ],
     "skills": [
         {
             "name": "Angular",
-            "knowledge": 100
+            "knowledge": 100,
+            "index": 1
         },
         {
             "name": "C#",
-            "knowledge": 100
+            "knowledge": 100,
+            "index": 2
         },
         {
             "name": "SQL",
-            "knowledge": 100
+            "knowledge": 100,
+            "index": 3
         },
         {
             "name": "Git",
-            "knowledge": 100
+            "knowledge": 100,
+            "index": 4
         },
         {
             "name": "C++ / C",
-            "knowledge": 50
+            "knowledge": 50,
+            "index": 5
+        },
+        {
+            "name": "PHP",
+            "knowledge": 50,
+            "index": 6
         },
         {
             "name": "React / React Native",
-            "knowledge": 50
+            "knowledge": 50,
+            "index": 7
         }
     ],
     "languages": [
         {
             "type": "French",
-            "level": 4
+            "level": 4,
+            "index": 1
         },
         {
             "type": "English",
-            "level": 3
+            "level": 3,
+            "index": 2
         }
     ]
 }
