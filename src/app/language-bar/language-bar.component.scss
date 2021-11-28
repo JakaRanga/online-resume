@@ -1,0 +1,10 @@
+.ro-cp-language-block {
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+.ro-cp-language-block-active {
+    text-decoration: underline;
+}

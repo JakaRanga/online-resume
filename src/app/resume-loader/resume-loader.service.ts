@@ -1,93 +1,62 @@
-import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
-
-export interface ResumeData {
-
-  profile: Profile,
-  contacts: Contact[],
-  experiences: Experience[],
-  educations: Education[],
-  skills: Skill[],
-  languages: Language[],
-  picture: string
-  
-}
-
-export interface Profile {
-
-  name: string,
-  title: string,
-  catchphrase: string,
-  birthdate: string,
-  nationality: string,
-  localisation: string
-
-}
-
-export interface Contact {
-
-  name: string,
-  value: string,
-  type: 'tel' | 'email' | 'web' | 'linkedin'
-
-}
-
-export interface Experience extends Indexable {
-
-  title: string,
-  subtitle: string,
-  description: string,
-  date: string
-
-}
-
-export interface Education extends Indexable {
-
-  title: string,
-  subtitle: string,
-  date: string
-
-}
-
-export interface Skill extends Indexable {
-
-  name: string,
-  knowledge: number
-
-}
-
-export interface Language extends Indexable {
-
-  type: string,
-  level: number
-
-}
-
-export interface Indexable {
-
-  index: number;
-  
-}
+import { HttpClient } from "@angular/common/http";
+import { Injectable } from "@angular/core";
+import { from, Observable } from "rxjs";
+import { map } from "rxjs/operators";
+import { DisplayLanguage } from "../models/display-language.model";
+import { ResumeAssetsI18n } from "../models/resume-assets-i18n.model";
+import { ResumeAssets } from "../models/resume-assets.model";
+import { ResumeData } from "../models/resume-data.model";
+import { ResumeFile } from "../models/resume-file.model";
 
 @Injectable({
   providedIn: 'root'
 })
 export class ResumeLoaderService {
 
-  resumeData: ResumeData;
+  resumeFile: ResumeFile;
 
   constructor(private http: HttpClient) { }
 
-  public getResumeInformation(): Observable<ResumeData> {
-    return this.http.get<ResumeData>('./assets/resume-information.json');
+  private getResumeFile(): Observable<ResumeFile> {
+    if (this.resumeFile) {
+      return from(new Observable<ResumeFile>((subject) => {
+        subject.next(this.resumeFile)
+      }));
+    }
+    else {
+      return from(this.http.get<ResumeFile>('./assets/resume-information.json'))
+        .pipe(map((file: ResumeFile) => {
+          this.resumeFile = file;
+          return file;
+        }));
+    }
   }
 
-  public storeResumeInformations(resumeData: ResumeData): void {
-    this.resumeData = resumeData;
+  public getResumeInformationFromLanguage(lang: string): Observable<ResumeData> {
+    return from(this.getResumeFile()).pipe(
+      map((file: ResumeFile) => {
+        return file.data
+          .find((data: ResumeData) => data.lang === lang);
+      })
+    )
   }
 
-  public getResumeInformations(): ResumeData {
-    return this.resumeData;
+  public getDisplayLanguages(): Observable<DisplayLanguage[]> {
+    return from(this.getResumeFile()).pipe(
+      map((file: ResumeFile) => {
+        return file.metadata.displayLanguages;
+      })
+    )
   }
+
+  public getResumeAssetsFromLanguage(lang: string): Observable<ResumeAssets> {
+    return from(this.getResumeFile()).pipe(
+      map((file: ResumeFile) => {
+        let assets: ResumeAssets = Object.assign({}, file.metadata.assets);
+        assets.i18n = assets.i18n.filter((i18n: ResumeAssetsI18n) => i18n.code === lang)
+        return assets;
+      })
+    )
+  }
+
 }

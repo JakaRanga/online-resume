@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Contact } from '../resume-loader/resume-loader.service';
+import { Contact } from '../models/contact.model';
 
 @Component({
   selector: 'ro-contact-block',

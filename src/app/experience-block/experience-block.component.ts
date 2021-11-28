@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Experience } from 'src/app/resume-loader/resume-loader.service';
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import { Indexor } from '../indexor/indexor';
+import { Experience } from '../models/experience.model';
 
 @Component({
   selector: 'ro-experience-block',

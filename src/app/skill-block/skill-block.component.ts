@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Skill } from 'src/app/resume-loader/resume-loader.service';
 import { Indexor } from '../indexor/indexor';
+import { Skill } from '../models/skill.model';
 
 @Component({
   selector: 'ro-skill-block',

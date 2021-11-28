@@ -5,7 +5,7 @@
         <div class="ro-flex-row ro-align-center rp-cp-title-container">
 
             <div class="ro-cp-picture-container">
-                <img [src]="resumeData.profile.picture" class="ro-cp-resume-pic ro-margin-right-xl">
+                <img [src]="resumeAssets.picture" class="ro-cp-resume-pic ro-margin-right-xl">
             </div>
 
             <div class="ro-cp-resume-title ro-flex-fill">
@@ -20,7 +20,7 @@
 
             <div class="ro-cp-download-btn">
 
-                <a (click)="printAsPdf('resume-en')">
+                <a (click)="printAsPdf('resume')">
                     <fa-icon [icon]="faDownload" class="ro-text-secondary"></fa-icon>
                 </a>
 
@@ -33,25 +33,25 @@
             <div class="ro-cp-left-panel ro-margin-right-xl ">
 
                 <div>
-                    <label>PROFILE</label>
+                    <label>{{resumeAssetsI18n.PROFILE}}</label>
                     <div>{{ resumeData.profile.catchphrase }}</div>
                 </div>
 
                 <div class="ro-margin-top-l ro-flex-column">
-                    <label>PERSONAL DETAILS</label>
+                    <label>{{resumeAssetsI18n.PERSONAL_DETAILS}}</label>
 
-                    <label class="ro-cp-details-label ro-margin-top-sm">Birth Date</label>
+                    <label class="ro-cp-details-label ro-margin-top-sm">{{resumeAssetsI18n.BIRTH_DATE}}</label>
                     <div>{{ resumeData.profile.birthdate }}</div>
 
-                    <label class="ro-cp-details-label ro-margin-top-sm">Nationality</label>
+                    <label class="ro-cp-details-label ro-margin-top-sm">{{resumeAssetsI18n.NATIONALITY}}</label>
                     <div>{{ resumeData.profile.nationality }}</div>
 
-                    <label class="ro-cp-details-label ro-margin-top-sm">Localization</label>
+                    <label class="ro-cp-details-label ro-margin-top-sm">{{resumeAssetsI18n.LOCALISATION}}</label>
                     <div>{{ resumeData.profile.localisation }}</div>
                 </div>
 
                 <div class="ro-margin-top-l ro-flex-column">
-                    <label>CONTACT</label>
+                    <label>{{resumeAssetsI18n.CONTACT}}</label>
 
                     <ro-contact-block [contacts]="resumeData.contacts"></ro-contact-block>
 
@@ -63,7 +63,7 @@
 
                 <div class="ro-cp-resume-block">
 
-                    <label>PROFESSIONAL EXPERIENCE</label>
+                    <label>{{resumeAssetsI18n.PROFESSIONAL_EXPERIENCE}}</label>
 
                     <div class="ro-flex-column ro-flex-fill">
 
@@ -74,7 +74,7 @@
 
                 <div class="ro-cp-resume-block ro-margin-top-xl">
 
-                    <label>EDUCATION</label>
+                    <label>{{resumeAssetsI18n.EDUCATION}}</label>
 
                     <div class="ro-flex-column ro-flex-fill">
 
@@ -85,7 +85,7 @@
 
                 <div class="ro-cp-resume-block ro-margin-top-xl">
 
-                    <label>SKILLS</label>
+                    <label>{{resumeAssetsI18n.SKILLS}}</label>
 
                     <div class="ro-flex-column ro-flex-fill">
 
@@ -96,7 +96,7 @@
 
                 <div class="ro-cp-resume-block ro-margin-top-xl">
 
-                    <label>LANGUAGES</label>
+                    <label>{{resumeAssetsI18n.LANGUAGES}}</label>
 
                     <div class="ro-flex-column ro-flex-fill">
 

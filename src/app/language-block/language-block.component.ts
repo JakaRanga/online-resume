@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Indexor } from '../indexor/indexor';
-import { Language } from '../resume-loader/resume-loader.service';
+import { Language } from '../models/language.model';
 
 @Component({
   selector: 'ro-language-block',

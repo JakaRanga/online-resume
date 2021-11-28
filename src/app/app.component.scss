@@ -21,3 +21,9 @@
     align-items: center;
     justify-content: center;
 }
+
+ro-language-bar {
+    @media print {
+        display: none;
+    }
+}

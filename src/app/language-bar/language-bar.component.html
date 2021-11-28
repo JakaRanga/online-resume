@@ -1,0 +1,7 @@
+<div *ngIf="languages && languages.length > 1" class="ro-flex-row ro-flex-fill ro-justify-space-end ro-align-center">
+    <fa-icon [icon]="faLanguage" class="ro-margin-right ro-text-secondary"></fa-icon>
+    <div *ngFor="let language of languages" class="ro-margin-right ro-text-secondary ro-cp-language-block"
+        [ngClass]="{'ro-cp-language-block-active': language.index === langIndex}" (click)="languageChange(language)">
+        {{language.displayCode}}
+    </div>
+</div>
