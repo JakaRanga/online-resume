@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
-import { combineLatest, forkJoin, from } from 'rxjs';
+import { combineLatest, forkJoin, from, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { DisplayLanguage } from './models/display-language.model';
 import { ResumeAssets } from './models/resume-assets.model';
@@ -24,15 +24,16 @@ export class AppComponent {
   }
 
   public onLanguageChange(language: DisplayLanguage): void {
+    this.resumeAssets = undefined;
+    this.resumeData = undefined;
     combineLatest([
       this.resumeService.getResumeInformationFromLanguage(language.code),
       this.resumeService.getResumeAssetsFromLanguage(language.code),
     ])
-    .subscribe((res) => {
-      this.resumeData = res[0];
-      this.resumeAssets = res[1];
-      console.log(language.code, res[1]);
-    });
+      .subscribe((res) => {
+        this.resumeData = res[0];
+        this.resumeAssets = res[1];
+      });
   }
 
   private loadAvailableLanguages(): void {

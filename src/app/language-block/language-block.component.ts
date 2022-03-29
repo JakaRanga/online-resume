@@ -9,7 +9,14 @@ import { Language } from '../models/language.model';
 })
 export class LanguageBlockComponent extends Indexor<Language> implements OnInit {
 
-  @Input() languages: Language[]
+  private _languages: Language[];
+  public get languages(): Language[] {
+    return this._languages;
+  }
+  @Input()
+  public set languages(v: Language[]) {
+    this._languages = super.sortByIndex(v);
+  }
 
   counter: Array<number> = [1, 2, 3, 4]
 

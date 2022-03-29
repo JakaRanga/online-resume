@@ -10,7 +10,14 @@ import { Skill } from '../models/skill.model';
 export class SkillBlockComponent extends Indexor<Skill> implements OnInit {
 
 
-  @Input() skills: Skill[];
+  private _skills: Skill[];
+  public get skills(): Skill[] {
+    return this._skills;
+  }
+  @Input()
+  public set skills(v: Skill[]) {
+    this._skills = super.sortByIndex(v);
+  }
 
   constructor() {
     super();
