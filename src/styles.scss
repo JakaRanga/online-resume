@@ -3,7 +3,6 @@
 @import "style-sheets/style-class.scss";
 @import "style-sheets/color.scss";
 @import "style-sheets/ro-scrollbar.scss";
-@import "style-sheets/animations.scss";
 
 @font-face {
     font-family: 'Poppins';
@@ -11,8 +10,6 @@
  }
 
 body {
-
-
     --font-main:  'Poppins', sans-serif;
 
     --ro-primary: #0b7af3;
@@ -31,8 +28,13 @@ body {
     --ro-toolbar-background-color: #c1dbf7;
     --ro-toolbar-foreground-color: #0b7af3;
     --ro-toolbar-foreground-color-hover: #0b5fb9;
+
+    --ro-max-container-size: 1200px;
     
-    font-size: 1vw;
+    font-size: 16px;
+    @media print {
+        font-size: 9px !important;
+    }
     margin: 0 !important;
     font-family: var(--font-main);
 }

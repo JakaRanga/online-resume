@@ -7,14 +7,14 @@
 
 .ro-cp-skill {
     width: 32%;
-    margin-bottom: .3125vw;
+    margin-bottom: .3125em;
 }
 
 .ro-cp-skill-circle {
-    border: .5vw solid var(--ro-primary);
+    border: .5em solid var(--ro-primary);
     border-radius: 50%;
-    width: 3vw;
-    height: 3vw;
+    width: 3em;
+    height: 3em;
     transform: rotate(45deg);
 }
 

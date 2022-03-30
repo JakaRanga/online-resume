@@ -1,9 +1,9 @@
 <ro-language-bar *ngIf="availableLanguages.length > 0" (onLanguageChange)="onLanguageChange($event)" [languages]="availableLanguages"></ro-language-bar>
 <div class="ro-cp-main-container ro-flex-column ro-flex-fill">
 
-    <div class="ro-cp-main-resume-container">
+    <div class="ro-cp-main-resume-container" *ngIf="resumeData && resumeAssets">
 
-        <ro-resume id="resume" *ngIf="resumeData && resumeAssets" [resumeData]="resumeData" [resumeAssets]="resumeAssets"></ro-resume>
+        <ro-resume id="resume" [resumeData]="resumeData" [resumeAssets]="resumeAssets"></ro-resume>
 
     </div>
 

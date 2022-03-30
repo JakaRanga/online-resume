@@ -1,36 +1,32 @@
 .ro-cp-resume-container {
-    width: 80vw;
-    margin: 1.5625vw auto;
-}
-
-.rp-cp-title-container {
-    width: 75vw;
+    max-width: var(--ro-max-container-size);
+    margin: 0 auto;
 }
 
 .ro-cp-picture-container {
-    width: 18vw;
+    width: 25%;
 }
 
 .ro-cp-resume-pic {
     border-radius: 50%;
-    width: 16vw;
-    height: 16vw;
+    width: 16em;
+    height: 16em;
 }
 
 label {
     font-weight: bold;
-    font-size: 1.3vw;
+    font-size: 1.3em;
 }
 
 .ro-cp-resume-title {
     .title {
-        font-size: 4vw;
+        font-size: 4em;
         font-weight: bold;
         color: var(--ro-text-secondary);
     }
 
     .subtitle {
-        font-size: 1.5vw;
+        font-size: 1.5em;
         font-weight: bold;
         color: var(--ro-text-primary);
     }
@@ -38,7 +34,7 @@ label {
 
 .ro-cp-download-btn {
     fa-icon {
-        font-size: 2.3vw;
+        font-size: 2.3em;
         &:hover {
             cursor: pointer;
         }
@@ -50,7 +46,7 @@ label {
 }
 
 .ro-cp-left-panel {
-    width: 18vw;
+    width: 18em;
 
 
     .ro-cp-details-label {
@@ -60,7 +56,7 @@ label {
 }
 
 .ro-cp-right-panel {
-    margin-left: 1.0416vw;
+    margin-left: 1.0416em;
 }
 
   

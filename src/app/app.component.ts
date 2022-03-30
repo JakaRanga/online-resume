@@ -1,7 +1,6 @@
-import { Component } from '@angular/core';
+import { ChangeDetectorRef, Component } from '@angular/core';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
-import { combineLatest, forkJoin, from, Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { combineLatest } from 'rxjs';
 import { DisplayLanguage } from './models/display-language.model';
 import { ResumeAssets } from './models/resume-assets.model';
 import { ResumeData } from './models/resume-data.model';
@@ -19,7 +18,9 @@ export class AppComponent {
   resumeAssets: ResumeAssets;
   availableLanguages: DisplayLanguage[] = [];
 
-  constructor(private resumeService: ResumeLoaderService) {
+  constructor(
+    private cd: ChangeDetectorRef,
+    private resumeService: ResumeLoaderService) {
     this.loadAvailableLanguages();
   }
 
@@ -33,6 +34,7 @@ export class AppComponent {
       .subscribe((res) => {
         this.resumeData = res[0];
         this.resumeAssets = res[1];
+        this.cd.detectChanges();
       });
   }
 
