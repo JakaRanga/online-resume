@@ -4,13 +4,13 @@
 }
 
 .ro-cp-picture-container {
-    width: 25%;
+    flex: 1;
 }
 
 .ro-cp-resume-pic {
     border-radius: 50%;
-    width: 16em;
-    height: 16em;
+    width: auto;
+    max-height: 16em;
 }
 
 label {
@@ -19,6 +19,8 @@ label {
 }
 
 .ro-cp-resume-title {
+    flex: 4;
+
     .title {
         font-size: 4em;
         font-weight: bold;
@@ -33,6 +35,8 @@ label {
 }
 
 .ro-cp-download-btn {
+    flex: 1;
+
     fa-icon {
         font-size: 2.3em;
         &:hover {
