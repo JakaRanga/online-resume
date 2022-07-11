@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "set-docker-version": "$ORVERSION=",
+    "build-docker": "docker login; docker build -t online-resume:$ORVERSION .;docker tag online-resume:$ORVERSION jakaranga/oneline-resume:$ORVERSION;docker push jakaranga/online-resume:$ORVERSION"
   },
   "private": true,
   "dependencies": {
