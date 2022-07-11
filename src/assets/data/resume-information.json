@@ -13,7 +13,7 @@
             }
         ],
         "assets": {
-            "picture": "../../assets/jeremy-bouton.jpg",
+            "picture": "../../assets/data/jeremy-bouton.jpg",
             "i18n": [
                 {
                     "code": "en",

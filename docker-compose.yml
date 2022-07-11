@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+    online-resume:
+        container_name: online-resume
+        ports:
+            - '8006:80'
+        volumes:
+            - '/home/jakaranga/online-resume/data:/usr/share/nginx/html/assets/data'
+        image: 'jakaranga/online-resume:1.0.0'
