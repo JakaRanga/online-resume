@@ -6,4 +6,4 @@ services:
             - '8006:80'
         volumes:
             - '/home/jakaranga/online-resume/data:/usr/share/nginx/html/assets/data'
-        image: 'jakaranga/online-resume:1.0.0'
+        image: 'jakaranga/online-resume:1.0.1'
