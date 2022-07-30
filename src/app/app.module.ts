@@ -12,6 +12,7 @@ import { ExperienceBlockComponent } from './experience-block/experience-block.co
 import { LanguageBlockComponent } from './language-block/language-block.component';
 import { ContactBlockComponent } from './contact-block/contact-block.component';
 import { LanguageBarComponent } from './language-bar/language-bar.component';
+import { ResumeMobileComponent } from './resume-mobile/resume-mobile.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { LanguageBarComponent } from './language-bar/language-bar.component';
     ExperienceBlockComponent,
     LanguageBlockComponent,
     ContactBlockComponent,
-    LanguageBarComponent
+    LanguageBarComponent,
+    ResumeMobileComponent
   ],
   imports: [
     BrowserModule,

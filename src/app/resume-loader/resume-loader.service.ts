@@ -2,6 +2,7 @@ import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { from, Observable } from "rxjs";
 import { map } from "rxjs/operators";
+import { environment } from "src/environments/environment";
 import { DisplayLanguage } from "../models/display-language.model";
 import { ResumeAssetsI18n } from "../models/resume-assets-i18n.model";
 import { ResumeAssets } from "../models/resume-assets.model";
@@ -24,7 +25,7 @@ export class ResumeLoaderService {
       }));
     }
     else {
-      return from(this.http.get<ResumeFile>('./assets/resume-information.json'))
+      return from(this.http.get<ResumeFile>(`./assets/${environment.filePath}`))
         .pipe(map((file: ResumeFile) => {
           this.resumeFile = file;
           return file;

@@ -1,23 +1,27 @@
-<div class="ro-flex-column" *ngFor="let contact of contacts">
-    <label class="ro-cp-contacts-label ro-margin-top-sm">{{ contact.name }}</label>
-    <div [ngSwitch]="contact.type">
+<div class="ro-cp-contacts-container">
 
-        <ng-container *ngSwitchCase="'email'">
-            <a [href]="'mailto:' + contact.value">{{ contact.value }}</a>
-        </ng-container>
+    <div class="ro-flex-column" *ngFor="let contact of contacts">
+        <label class="ro-cp-contacts-label ro-margin-top-sm">{{ contact.name }}</label>
+        <div [ngSwitch]="contact.type">
 
-        <ng-container *ngSwitchCase="'tel'">
-            <a [href]="'tel:' + contact.value">{{ contact.value }}</a>
-        </ng-container>
+            <ng-container *ngSwitchCase="'email'">
+                <a [href]="'mailto:' + contact.value">{{ contact.value }}</a>
+            </ng-container>
 
-        <ng-container *ngSwitchCase="'web'">
-            <a [href]="contact.value">{{ contact.value }}</a>
-        </ng-container>
+            <ng-container *ngSwitchCase="'tel'">
+                <a [href]="'tel:' + contact.value">{{ contact.value }}</a>
+            </ng-container>
 
-        <ng-container *ngSwitchCase="'linkedin'">
-            <a [href]="'https://www.linkedin.com' + contact.value">{{ contact.value }}</a>
-        </ng-container>
+            <ng-container *ngSwitchCase="'web'">
+                <a [href]="contact.value">{{ contact.value }}</a>
+            </ng-container>
+
+            <ng-container *ngSwitchCase="'linkedin'">
+                <a [href]="'https://www.linkedin.com' + contact.value">{{ contact.value }}</a>
+            </ng-container>
+
+        </div>
 
     </div>
-
+    
 </div>

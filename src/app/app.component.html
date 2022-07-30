@@ -1,10 +1,15 @@
-<ro-language-bar *ngIf="availableLanguages.length > 0" (onLanguageChange)="onLanguageChange($event)" [languages]="availableLanguages"></ro-language-bar>
+<ro-language-bar *ngIf="availableLanguages.length > 0" (onLanguageChange)="onLanguageChange($event)"
+    [languages]="availableLanguages"></ro-language-bar>
 <div class="ro-cp-main-container ro-flex-column ro-flex-fill">
 
-    <div class="ro-cp-main-resume-container" *ngIf="resumeData && resumeAssets">
-
+    <!-- desktop -->
+    <div id="resume-desktop" class="ro-cp-main-resume-container" *ngIf="resumeData && resumeAssets">
         <ro-resume id="resume" [resumeData]="resumeData" [resumeAssets]="resumeAssets"></ro-resume>
+    </div>
 
+    <!-- mobile -->
+    <div id="resume-mobile" class="ro-flex-column ro-flex-fill" *ngIf="resumeData && resumeAssets">
+        <ro-resume-mobile [resumeData]="resumeData" [resumeAssets]="resumeAssets"></ro-resume-mobile>
     </div>
 
 </div>

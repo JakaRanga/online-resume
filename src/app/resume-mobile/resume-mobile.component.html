@@ -1,0 +1,120 @@
+<div class="ro-flex-column ro-flex-fill ro-cp-mobile-container ro-padding-xxxl">
+
+    <ng-container *ngIf="resumeData">
+
+
+        <div class="ro-cp-mobile-title ro-flex-row ro-align-center ro-margin-bottom-xl">
+
+            <img [src]="resumeAssets.picture" class="ro-cp-resume-pic ro-margin-right-xl">
+
+            <div class="ro-flex-fill">
+                <div class="title">
+                    {{ resumeData.profile.name }}
+                </div>
+
+                <div class="subtitle">
+                    {{ resumeData.profile.title }}
+                </div>
+            </div>
+        </div>
+
+        <div class="ro-cp-mobile-profile ro-margin-bottom-xl">
+
+            <div class="ro-margin-bottom-l">
+                <label>{{resumeAssetsI18n.PROFILE}}</label>
+                <div>{{ resumeData.profile.catchphrase }}</div>
+            </div>
+
+            <div class="ro-margin-top-l ro-flex-column">
+                <label>{{resumeAssetsI18n.PERSONAL_DETAILS}}</label>
+
+                <div class="ro-flex-row">
+
+                    <div class="ro-margin-right-xl">
+                        <label class="ro-cp-details-label ro-margin-top-sm">{{resumeAssetsI18n.BIRTH_DATE}}</label>
+                        <div>{{ resumeData.profile.birthdate }}</div>
+                    </div>
+
+                    <div class="ro-margin-right-xl">
+                        <label class="ro-cp-details-label ro-margin-top-sm">{{resumeAssetsI18n.NATIONALITY}}</label>
+                        <div>{{ resumeData.profile.nationality }}</div>
+                    </div>
+
+                    <div class="ro-margin-right-xl">
+                        <label class="ro-cp-details-label ro-margin-top-sm">{{resumeAssetsI18n.LOCALISATION}}</label>
+                        <div>{{ resumeData.profile.localisation }}</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="ro-margin-top-l ro-flex-column">
+                <label>{{resumeAssetsI18n.CONTACT}}</label>
+
+                <ro-contact-block [contacts]="resumeData.contacts"></ro-contact-block>
+
+            </div>
+
+        </div>
+
+        <div>
+
+            <div>
+                <label>{{resumeAssetsI18n.PROFESSIONAL_EXPERIENCE}}</label>
+
+                <div class="ro-flex-column ro-flex-fill">
+                    <ro-experience-block [experiences]="resumeData.experiences"></ro-experience-block>
+                </div>
+            </div>
+
+        </div>
+
+        <div>
+
+            <div class="ro-margin-top-xl">
+
+                <label>{{resumeAssetsI18n.EDUCATION}}</label>
+
+                <div class="ro-flex-column ro-flex-fill">
+
+                    <ro-experience-block [experiences]="resumeData.educations"></ro-experience-block>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div>
+
+            <div class="ro-margin-top-xl">
+
+                <label>{{resumeAssetsI18n.SKILLS}}</label>
+
+                <div class="ro-flex-column ro-flex-fill">
+
+                    <ro-skill-block [skills]="resumeData.skills"></ro-skill-block>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div>
+
+            <div class="ro-margin-top-xl">
+
+                <label>{{resumeAssetsI18n.LANGUAGES}}</label>
+
+                <div class="ro-flex-column ro-flex-fill">
+
+                    <ro-language-block [languages]="resumeData.languages"></ro-language-block>
+
+                </div>
+            </div>
+
+        </div>
+
+    </ng-container>
+
+
+</div>

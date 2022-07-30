@@ -1,0 +1,40 @@
+.ro-cp-mobile-container {
+    & > {
+        width: 100%;
+    }
+}
+
+.ro-cp-mobile-title {
+
+    .ro-cp-resume-pic {
+        border-radius: 50%;
+        width: auto;
+        max-height: 12em;
+    }
+
+    .title {
+        font-size: 3.15em;
+        font-weight: bold;
+        color: var(--ro-text-secondary);
+    }
+
+    .subtitle {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: var(--ro-text-primary);
+    }
+}
+
+
+.ro-cp-mobile-profile {
+
+    .ro-cp-details-label {
+        color: var(--ro-text-secondary);
+        font-weight: bold;
+    }
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.3em;
+}
