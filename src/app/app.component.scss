@@ -1,6 +1,24 @@
 .ro-cp-main-container {
     height: 100vh;
     max-height: 100vh;
+
+    // Desktop
+    #resume-desktop {
+        display: block;
+    }
+    #resume-mobile {
+        display: none;
+    }
+
+    // Mobile
+    @media screen and (max-width: 950px) {
+        #resume-desktop {
+            display: none;
+        }
+        #resume-mobile {
+            display: block;
+        }
+    }
 }
 
 .ro-cp-main-resume-container {
@@ -15,3 +33,4 @@ ro-language-bar {
         display: none;
     }
 }
+

@@ -1,3 +1,14 @@
+.ro-cp-contacts-container {
+    @media screen and (max-width: 950px) {
+        display: flex;
+        flex-direction: row;
+    
+        & > * {
+            margin-right: 1.5em;
+        }
+    }
+}
+
 .ro-cp-contacts-label {
     color: var(--ro-text-secondary);
     font-weight: bold;
@@ -8,4 +19,4 @@ a {
     &:hover {
         cursor: pointer;
     }
-} 
+}

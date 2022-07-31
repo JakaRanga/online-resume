@@ -7,10 +7,10 @@
 @font-face {
     font-family: 'Poppins';
     src: url('assets/fonts/Poppins-Regular.ttf') format('truetype');
- }
+}
 
 body {
-    --font-main:  'Poppins', sans-serif;
+    --font-main: 'Poppins', sans-serif;
 
     --ro-primary: #0b7af3;
     --ro-dark-primary: #0b5fb9;
@@ -29,20 +29,21 @@ body {
     --ro-toolbar-foreground-color: #0b7af3;
     --ro-toolbar-foreground-color-hover: #0b5fb9;
 
+    // Desktop
     --ro-max-container-size: 1200px;
-    
-    font-size: 16px;
+    font-size: 14px;
 
-    @media screen and (max-width: 600px)  {
+    // Mobile
+    @media screen and (max-width: 950px) {
         font-size: 8px !important;
+        --ro-max-container-size: 100vw;
     }
-    @media screen and (min-width: 601px) and (max-width: 1200px)  {
-        font-size: 10px !important;
-    }
+
     @media print {
         font-size: 9px !important;
     }
-    
+
+
     margin: 0 !important;
     font-family: var(--font-main);
 }
