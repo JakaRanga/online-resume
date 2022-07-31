@@ -59,3 +59,29 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Docker
+
+To run online resume on docker, execute this command: 
+  `docker run -p 4200:80 --restart always oneline-resume:{latest version}`
+  
+## Docker Compose
+
+To run online resume with docker compose, execute `docker-compose up` with this `docker-compose.yml` file
+
+```
+version: '3.3'
+services:
+    online-resume:
+        container_name: online-resume
+        ports:
+            - '8006:80'
+        restart: always
+        image: 'jakaranga/online-resume:{latest-version}'
+```
+
+## Build your own docker image
+
+You can build your oneline-resume docker image. A Dockerfile is provided in this repository allwing you to easily build the image.
+Just run the following command: `docker build -t {image name} .`
+
