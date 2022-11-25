@@ -4,5 +4,5 @@ export interface Language extends Indexable {
 
     type: string,
     level: number
-
+    
 }

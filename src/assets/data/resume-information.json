@@ -51,7 +51,7 @@
             "profile": {
                 "name": "Jérémy BOUTON",
                 "title": "Web / Software Developer",
-                "catchphrase": "Junior Frontend Developer at Fair&Smart",
+                "catchphrase": "Frontend Developer at Kyu Solutions",
                 "birthdate": "24 January 1998",
                 "nationality": "French",
                 "localisation": "Metz - France"
@@ -82,34 +82,41 @@
                     "subtitle": "nestlé waters vosges",
                     "description": "Software development (C# / Winforms / WPF)\nDatabase management\n(Entity Framework, SQL Server Management Studio, Transact-SQL)",
                     "date": "jul 2017 - dec 2017",
-                    "index": 5
+                    "index": 6
                 },
                 {
                     "title": "Web / API / Software developer - Internship",
                     "subtitle": "öhman bank s.a luxembourg",
                     "description": "Web application development (Angular 5 / 6 / 7)\nREST API(C# ASP.NET)\nDesktop application development (WPF)\nDatabase management\n(Entity Framework, SQL Server Management Studio, Transact-SQL)",
                     "date": "jul 2018 - mar 2019",
-                    "index": 4
+                    "index": 5
                 },
                 {
                     "title": "Software architect - Internship",
                     "subtitle": "öhman bank s.a luxembourg",
                     "description": "Web application development (Angular 7 / 8)\nREST API (C# ASP.NET)\nDesktop application development (WPF)\nDatabase management\n(Entity Framework Core, SQL Server Management Studio, Transact-SQL)",
                     "date": "apr 2019 - dec 2019",
-                    "index": 3
+                    "index": 4
                 },
                 {
                     "title": "Software developer - Internship",
                     "subtitle": "kyu solutions luxembourg",
                     "description": "Web application development (ASP.NET Razor)\nREST API (.Net Core - AKKA.Net)\nDatabase management (SQL Server Management Studio, Transact-SQL)",
                     "date": "sep 2020 - mar 2021",
-                    "index": 2
+                    "index": 3
                 },
                 {
                     "title": "Junior Frontend developer",
                     "subtitle": "Fair&Smart",
                     "description": "Web application development (Angular 11)\nREST API (Typescript, Express)\n",
-                    "date": "mar 2021 - now",
+                    "date": "mar 2021 - sep 2022",
+                    "index": 2
+                },
+                {
+                    "title": "Analyst Developer",
+                    "subtitle": "kyu solutions luxembourg",
+                    "description": "Web application development (ASP.NET Razor)\nREST API (.Net Core - AKKA.Net)\nDatabase management (SQL Server Management Studio, Transact-SQL)",
+                    "date": "oct 2022 - now",
                     "index": 1
                 }
             ],
@@ -189,7 +196,7 @@
             "profile": {
                 "name": "Jérémy BOUTON",
                 "title": "Développeur Web / Software",
-                "catchphrase": "Développeur Junior Frontend à Fair&Smart",
+                "catchphrase": "Développeur Frontend à Kyu Solutions",
                 "birthdate": "24 Janvier 1998",
                 "nationality": "Française",
                 "localisation": "Metz - France"
@@ -220,34 +227,41 @@
                     "subtitle": "nestlé waters vosges",
                     "description": "Développement logiciel (C# / Winforms / WPF)\nGestion de bases de données\n(Entity Framework, SQL Server Management Studio, Transact-SQL)",
                     "date": "jul 2017 - dec 2017",
-                    "index": 5
+                    "index": 6
                 },
                 {
                     "title": "Développeur Web / API / Logiciel - Stage",
                     "subtitle": "öhman bank s.a luxembourg",
                     "description": "Développement d'applications Web (Angular 5 / 6 / 7)\nREST API(C# ASP.NET)\nDéveloppement d'applications bureau (WPF)\nGestion de bases de données\n(Entity Framework, SQL Server Management Studio, Transact-SQL)",
                     "date": "jul 2018 - mar 2019",
-                    "index": 4
+                    "index": 5
                 },
                 {
                     "title": "Architecte Logiciel - Stage",
                     "subtitle": "öhman bank s.a luxembourg",
                     "description": "Développement d'applications Web (Angular 7 / 8)\nREST API (C# ASP.NET)\nDéveloppement d'applications bureau (WPF)\nGestion de bases de données\n(Entity Framework Core, SQL Server Management Studio, Transact-SQL)",
                     "date": "avr 2019 - dec 2019",
-                    "index": 3
+                    "index": 4
                 },
                 {
                     "title": "Développeur Logiciel - Stage",
                     "subtitle": "kyu solutions luxembourg",
                     "description": "Développement d'applications Web (ASP.NET Razor)\nREST API (.Net Core - AKKA.Net)\nGestion de bases de données (SQL Server Management Studio, Transact-SQL)",
                     "date": "sep 2020 - mar 2021",
-                    "index": 2
+                    "index": 3
                 },
                 {
                     "title": "Junior Frontend developer",
                     "subtitle": "Fair&Smart",
                     "description": "Développement d'applications Web (Angular 11 / 12)\nREST API (Typescript, Express)\n",
-                    "date": "mar 2021 - maintenant",
+                    "date": "mar 2021 - sep 2022",
+                    "index": 2
+                },
+                {
+                    "title": "Développeur Analyste",
+                    "subtitle": "kyu solutions luxembourg",
+                    "description": "Développement d'applications Web (ASP.NET Razor)\nREST API (.Net Core - AKKA.Net)\nGestion de bases de données (SQL Server Management Studio, Transact-SQL)",
+                    "date": "oct 2022 - maintenant",
                     "index": 1
                 }
             ],
