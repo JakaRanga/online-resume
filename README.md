@@ -50,7 +50,7 @@ GG ;)
 
 # OnlineResume
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11, updated to version 15.
 
 ## Development server
 
@@ -63,7 +63,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Docker
 
 To run online resume on docker, execute this command: 
-  `docker run -p 4200:80 --restart always oneline-resume:{latest version}`
+  `docker run -p 4200:80 --restart always online-resume:{latest version}`
   
 ## Docker Compose
 
@@ -82,6 +82,6 @@ services:
 
 ## Build your own docker image
 
-You can build your oneline-resume docker image. A Dockerfile is provided in this repository allwing you to easily build the image.
+You can build your online-resume docker image. A Dockerfile is provided in this repository allowing you to easily build the image.
 Just run the following command: `docker build -t {image name} .`
 
