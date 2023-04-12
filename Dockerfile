@@ -1,5 +1,5 @@
 # Install and build container
-FROM node:16 as node
+FROM node:latest as node
 WORKDIR /app
 COPY . .
 RUN npm install
