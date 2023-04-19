@@ -78,6 +78,9 @@ services:
             - '8006:80'
         restart: always
         image: 'jakaranga/online-resume:{latest-version}'
+        # OPTIONAL
+        volumes:
+            - '/path/to/resume-information.json:/usr/share/nginx/html/assets/data/resume-information.json'
 ```
 
 ## Build your own docker image
