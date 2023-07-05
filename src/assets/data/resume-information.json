@@ -115,7 +115,7 @@
                 {
                     "title": "Analyst Developer",
                     "subtitle": "kyu solutions luxembourg",
-                    "description": "Web application development (ASP.NET Razor)\nREST API (.Net Core - AKKA.Net)\nDatabase management (SQL Server Management Studio, Transact-SQL)",
+                    "description": "Web application development (ASP.NET Razor / TypeScript)\nREST API (.Net Core - AKKA.Net)\nDatabase management (SQL Server Management Studio, Transact-SQL)\nAngular (15+) Trainer",
                     "date": "oct 2022 - now",
                     "index": 1
                 }
@@ -152,7 +152,7 @@
                     "index": 2
                 },
                 {
-                    "name": "SQL",
+                    "name": "Docker",
                     "knowledge": 100,
                     "index": 3
                 },
@@ -162,12 +162,12 @@
                     "index": 4
                 },
                 {
-                    "name": "C++ / C",
-                    "knowledge": 50,
+                    "name": "SQL",
+                    "knowledge": 75,
                     "index": 5
                 },
                 {
-                    "name": "PHP",
+                    "name": "C++ / C",
                     "knowledge": 50,
                     "index": 6
                 },
@@ -260,7 +260,7 @@
                 {
                     "title": "Développeur Analyste",
                     "subtitle": "kyu solutions luxembourg",
-                    "description": "Développement d'applications Web (ASP.NET Razor)\nREST API (.Net Core - AKKA.Net)\nGestion de bases de données (SQL Server Management Studio, Transact-SQL)",
+                    "description": "Développement d'applications Web (ASP.NET Razor)\nREST API (.Net Core - AKKA.Net)\nGestion de bases de données (SQL Server Management Studio, Transact-SQL)\nFormatteur Angular (15+)",
                     "date": "oct 2022 - maintenant",
                     "index": 1
                 }
@@ -297,7 +297,7 @@
                     "index": 2
                 },
                 {
-                    "name": "SQL",
+                    "name": "Docker",
                     "knowledge": 100,
                     "index": 3
                 },
@@ -307,12 +307,12 @@
                     "index": 4
                 },
                 {
-                    "name": "C++ / C",
-                    "knowledge": 50,
+                    "name": "SQL",
+                    "knowledge": 75,
                     "index": 5
                 },
                 {
-                    "name": "PHP",
+                    "name": "C++ / C",
                     "knowledge": 50,
                     "index": 6
                 },
