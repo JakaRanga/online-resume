@@ -65,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "online-resume:build"
+            "buildTarget": "online-resume:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "online-resume:build:production"
+              "buildTarget": "online-resume:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "online-resume:build"
+            "buildTarget": "online-resume:build"
           }
         },
         "test": {
